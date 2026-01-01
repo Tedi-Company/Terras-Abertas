@@ -1,0 +1,10 @@
+minetest.register_node("base:grass", {
+    description = "Terra com Grama",
+    tiles = {
+        "grass_top.png",
+        "dirt.png",
+        "grass_side.png"
+    },
+    is_ground_content = true,
+    groups = {crumbly = 3, soil = 1},
+})
