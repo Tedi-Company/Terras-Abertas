@@ -3,4 +3,5 @@ minetest.register_node("base:stone", {
     tiles = {"stone.png"},
     is_ground_content = true,
     groups = {crumbly = 3, soil = 1},
+    drop = "base:stone"
 })

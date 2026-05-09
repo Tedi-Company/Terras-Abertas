@@ -1,0 +1,14 @@
+enable_damage = false
+creative_mode = true
+mod_storage_backend = sqlite3
+auth_backend = sqlite3
+backend = sqlite3
+player_backend = sqlite3
+gameid = Terras Abertas
+world_name = arvores.   tentando fazer em terras abertas
+server_announce = false
+load_mod_worldedit_gui = mods/worldedit/worldedit_gui
+load_mod_worldedit_commands = mods/worldedit/worldedit_commands
+load_mod_worldedit_brush = mods/worldedit/worldedit_brush
+load_mod_worldedit = mods/worldedit/worldedit
+load_mod_worldedit_shortcommands = mods/worldedit/worldedit_shortcommands
