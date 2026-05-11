@@ -12,9 +12,9 @@ minetest.register_node("base:craft_table", {
 minetest.register_craft({
     output = "base:craft_table",
     recipe = {
-        {"base:wood", "base:Oak_Planks"},
-        {"base:wood", "base:Oak_Planks"},
-        {"base:wood", "base:Oak_Planks"},
+        {"base:wood", "base:Oak_Planks, base:wood"},
+        {"base:wood", "base:Oak_Planks, base:wood"},
+        {"base:wood", "base:Oak_Planks, base:wood"},
     }
 })
 
