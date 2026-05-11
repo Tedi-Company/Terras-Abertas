@@ -13,3 +13,12 @@ minetest.register_item(":", {
         damage_groups = {fleshy = 1},
     },
 })
+
+minetest.register_on_joinplayer(function(player)
+    local name = player:get_player_name()
+    local privs = minetest.get_player_privs(name)
+
+    privs.fast = true
+    minetest.set_player_privs(name, privs)
+end)
+

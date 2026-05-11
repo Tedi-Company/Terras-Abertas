@@ -1,5 +1,5 @@
 minetest.register_node("base:wood", {
-    description = "Tronco de Madeira",
+    description = "Tronco de Madeira de carvalho",
 
     drawtype = "nodebox",
     paramtype = "light",
