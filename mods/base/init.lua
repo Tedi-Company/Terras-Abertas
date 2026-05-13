@@ -2,6 +2,7 @@ local modpath = minetest.get_modpath("base")
 
 -- carregar blocos
 dofile(modpath .. "/blocos/dirt.lua")
+dofile(modpath .. "/blocos/water.lua")
 dofile(modpath .. "/blocos/grass.lua")
 dofile(modpath .. "/blocos/stone.lua")
 dofile(modpath .. "/blocos/wood.lua")
@@ -16,6 +17,8 @@ minetest.register_alias("mapgen_stone", "base:stone")
 minetest.register_alias("mapgen_dirt", "base:dirt")
 minetest.register_alias("mapgen_dirt_with_grass", "base:grass")
 minetest.register_alias("base:tree", "base:wood")
+minetest.register_alias("mapgen_water_source", "base:water_source")
+
 -- Aliases de folhas
 minetest.register_alias("mapgen_leaves", "base:leaves")
 minetest.register_alias("default:leaves", "base:leaves")
