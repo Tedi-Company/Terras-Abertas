@@ -1,5 +1,15 @@
 minetest.register_node("base:water_source", {
     description = "Água",
-    tiles = {"water.png"}, 
-    groups = {cracky = 3},
+    tiles = {"water.png"},
+    drawtype = "liquid",
+    paramtype = "light",
+    walkable = false,
+    pointable = false,
+    diggable = false,
+    buildable_to = true,
+    liquidtype = "source",
+    liquid_alternative_flowing = "base:water_flowing",
+    liquid_alternative_source = "base:water_source",
+    liquid_viscosity = 1,
+    groups = {water = 3, liquid = 3},
 })
