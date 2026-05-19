@@ -13,16 +13,16 @@ dofile(modpath .. "/blocos/mosses/moss_block.lua")
 dofile(modpath .. "/blocos/craft_table.lua")
 
 -- aliases obrigatórios do mapgen
-minetest.register_alias("mapgen_stone", "base:stone")
-minetest.register_alias("mapgen_dirt", "base:dirt")
-minetest.register_alias("mapgen_dirt_with_grass", "base:grass")
-minetest.register_alias("base:tree", "base:wood")
-minetest.register_alias("mapgen_water_source", "base:water_source")
+minetest.register_alias("mapgen_stone", "ta_base:stone")
+minetest.register_alias("mapgen_dirt", "ta_base:dirt")
+minetest.register_alias("mapgen_dirt_with_grass", "ta_base:grass")
+minetest.register_alias("ta_base:tree", "ta_base:wood")
+minetest.register_alias("mapgen_water_source", "ta_base:water_source")
 
 -- Aliases de folhas
-minetest.register_alias("mapgen_leaves", "base:leaves")
-minetest.register_alias("default:leaves", "base:leaves")
-minetest.register_alias("leaves", "base:leaves")
+minetest.register_alias("mapgen_leaves", "ta_base:leaves")
+minetest.register_alias("default:leaves", "ta_base:leaves")
+minetest.register_alias("leaves", "ta_base:leaves")
 
 
 
