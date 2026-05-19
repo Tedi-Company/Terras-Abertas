@@ -1,4 +1,4 @@
-minetest.register_node("base:leaves", {
+minetest.register_node("ta_base:leaves", {
     description = "Folhas",
 
     drawtype = "allfaces_optional",

@@ -5,7 +5,7 @@ minetest.register_decoration({
     name = "mapgen_trees:small_tree",
     deco_type = "schematic",
 
-    place_on = {"base:grass"},
+    place_on = {"ta_base:grass"},
     sidelen = 16,
 
     fill_ratio = 0.0025,
@@ -25,7 +25,7 @@ minetest.register_decoration({
     name = "mapgen_trees:big_tree",
     deco_type = "schematic",
 
-    place_on = {"base:grass"},
+    place_on = {"ta_base:grass"},
     sidelen = 16,
 
     fill_ratio = 0.0008,

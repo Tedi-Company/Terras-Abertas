@@ -1,4 +1,4 @@
-minetest.register_node("base:craft_table", {
+minetest.register_node("ta_base:craft_table", {
     description = "bloco de contrução",
     tiles = {
         "grass_top.png",   -- topo
@@ -6,7 +6,7 @@ minetest.register_node("base:craft_table", {
     },
     is_ground_content = true,
     groups = {crumbly = 3, soil = 1},
-    drop = "base:dirt"
+    drop = "ta_base:dirt"
 })
 
 minetest.register_craft({

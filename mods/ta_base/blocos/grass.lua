@@ -1,4 +1,4 @@
-minetest.register_node("base:grass", {
+minetest.register_node("ta_base:grass", {
     description = "Terra com Grama",
     tiles = {
         "grass_top.png",   -- topo
@@ -6,5 +6,5 @@ minetest.register_node("base:grass", {
     },
     is_ground_content = true,
     groups = {crumbly = 3, soil = 1},
-    drop = "base:dirt"
+    drop = "ta_base:dirt"
 })

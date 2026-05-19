@@ -1,4 +1,4 @@
-minetest.register_node("base:wood", {
+minetest.register_node("ta_base:wood", {
     description = "Tronco de Madeira de carvalho",
 
     drawtype = "nodebox",

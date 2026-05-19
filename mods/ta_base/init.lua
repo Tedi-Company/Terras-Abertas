@@ -1,4 +1,4 @@
-local modpath = minetest.get_modpath("base")
+local modpath = minetest.get_modpath("ta_base")
 
 -- carregar blocos
 dofile(modpath .. "/blocos/dirt.lua")
