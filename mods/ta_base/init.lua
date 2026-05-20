@@ -19,6 +19,11 @@ minetest.register_alias("mapgen_dirt_with_grass", "ta_base:grass")
 minetest.register_alias("ta_base:tree", "ta_base:wood")
 minetest.register_alias("mapgen_water_source", "ta_base:water_source")
 
+-- Correção de bugs:
+
+minetest.register_alias("base:dirt", "ta_base:dirt")
+minetest.register_alias("base:grass", "ta_base:grass")
+
 -- Aliases de folhas
 minetest.register_alias("mapgen_leaves", "ta_base:leaves")
 minetest.register_alias("default:leaves", "ta_base:leaves")
