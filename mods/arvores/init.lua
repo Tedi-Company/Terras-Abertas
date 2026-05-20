@@ -14,7 +14,7 @@ minetest.register_decoration({
     y_min = 1,
     y_max = 80,
 
-    schematic = modpath .. "/schematics/small_tree.mts",
+    schematic = modpath .. "/schematics/small_tree_0.3.3.mts",
 
     flags = "place_center_x, place_center_z",
     rotation = "random",
@@ -34,7 +34,7 @@ minetest.register_decoration({
     y_min = 1,
     y_max = 80,
 
-    schematic = modpath .. "/schematics/big_tree.mts",
+    schematic = modpath .. "/schematics/big_tree_0.3.3.mts",
 
     flags = "place_center_x, place_center_z",
     rotation = "random",
