@@ -1,9 +1,0 @@
-enable_damage = true
-creative_mode = false
-mod_storage_backend = sqlite3
-auth_backend = sqlite3
-backend = sqlite3
-player_backend = sqlite3
-gameid = Terras Abertas
-world_name = mundo 0.2.2PreDev luis
-server_announce = false

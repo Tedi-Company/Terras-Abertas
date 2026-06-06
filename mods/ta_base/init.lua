@@ -1,3 +1,5 @@
+## By Tedi Games Studios
+
 local modpath = minetest.get_modpath("ta_base")
 
 -- carregar blocos
@@ -22,7 +24,15 @@ minetest.register_alias("mapgen_water_source", "ta_base:water_source")
 -- Correção de bugs:
 
 minetest.register_alias("base:dirt", "ta_base:dirt")
+minetest.register_alias("base:water_source", "ta_base:water_source")
 minetest.register_alias("base:grass", "ta_base:grass")
+minetest.register_alias("base:stone", "ta_base:stone")
+minetest.register_alias("base:wood", "ta_base:wood")
+minetest.register_alias("base:leaves", "ta_base:leaves")
+minetest.register_alias("base:Oak_Planks", "ta_base:Oak_Planks")
+minetest.register_alias("base:white_concrete", "ta_base:white_concrete")
+minetest.register_alias("base:moss_block", "ta_base:moss_block")
+minetest.register_alias("base:craft_table", "ta_base:craft_table")
 
 -- Aliases de folhas
 minetest.register_alias("mapgen_leaves", "ta_base:leaves")

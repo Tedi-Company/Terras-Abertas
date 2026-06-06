@@ -1,5 +1,7 @@
+local S = minetest.get_translator("ta_base")
+
 minetest.register_node("ta_base:wood", {
-    description = "Tronco de Madeira de carvalho",
+    description = S("Tronco de Madeira de carvalho"),
 
     drawtype = "nodebox",
     paramtype = "light",

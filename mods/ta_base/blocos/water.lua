@@ -1,6 +1,6 @@
 -- 1. REGISTRO DA FONTE DE ÁGUA (BLOCO PARADO)
 minetest.register_node("ta_base:water_source", {
-    description = "Água Source",
+    description = "Água",
     tiles = {"water.png"},
     drawtype = "liquid",
     paramtype = "light",
@@ -17,7 +17,7 @@ minetest.register_node("ta_base:water_source", {
 
 -- 2. REGISTRO DA ÁGUA FLUINDO (O QUE ESCORRE)
 minetest.register_node("ta_base:water_flowing", {
-    description = "Água Flowing",
+    description = "Água",
     tiles = {"water.png"},
     drawtype = "flowingliquid",
     paramtype = "light",
