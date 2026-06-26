@@ -1,5 +1,6 @@
+local S = minetest.get_translator("ta_base")
 minetest.register_node("ta_base:craft_table", {
-    description = "bloco de contrução",
+    description = S("craft_table"),
     tiles = {
         "grass_top.png",   -- topo
         "grass_side.png"   -- lados

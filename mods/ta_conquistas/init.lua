@@ -1,4 +1,4 @@
-local modpath = minetest.get_modpath("conquistas")
+local modpath = minetest.get_modpath("ta_conquistas")
 
 dofile(modpath .. "/conquistas.lua")
 dofile(modpath .. "/menu.lua")

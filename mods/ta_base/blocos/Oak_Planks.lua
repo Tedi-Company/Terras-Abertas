@@ -1,5 +1,7 @@
+local S = minetest.get_translator("ta_base")
+
 minetest.register_node("ta_base:Oak_Planks", {
-    description = "Tabua de madeira de carvalho",
+    description = S("Oak Planks"), -- Agora o jogo sabe que pode traduzir essa descrição!
     tiles = {"Oak_Planks.png"},
     is_ground_content = true,
     groups = {crumbly = 3, soil = 1},
@@ -11,4 +13,3 @@ minetest.register_craft({
     output = "ta_base:Oak_Planks 8",
     recipe = {"ta_base:wood"}
 })
-

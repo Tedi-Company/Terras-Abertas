@@ -49,8 +49,8 @@ end
 -- PAINEL DO ELEVADOR
 -- ==============================
 
-minetest.register_node("elevador:painel", {
-    description = "Painel de Elevador",
+minetest.register_node("ta_elevador:painel", {
+    description = "Painel",
     tiles = {"default_steel_block.png"},
     groups = {cracky=1},
 
@@ -93,7 +93,7 @@ minetest.register_node("elevador:painel", {
 -- BLOCO PARA REGISTRAR ANDAR
 -- ==============================
 
-minetest.register_node("elevador:registrar_andar", {
+minetest.register_node("ta_elevador:registrar_andar", {
     description = "Registrar Andar do Elevador",
     tiles = {"default_copper_block.png"},
     groups = {cracky=1},

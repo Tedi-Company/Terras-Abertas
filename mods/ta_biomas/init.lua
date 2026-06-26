@@ -1,4 +1,4 @@
-local modpath = minetest.get_modpath("biomas")
+local modpath = minetest.get_modpath("ta_biomas")
 
 dofile(modpath .. "/grassland/bioma.lua")
 dofile(modpath .. "/zumbilandia/bioma.lua")

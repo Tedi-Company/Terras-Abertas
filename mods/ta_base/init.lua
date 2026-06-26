@@ -1,4 +1,6 @@
-## By Tedi Games Studios
+-- ## By Tedi Games Studios
+
+S = minetest.get_translator("ta_base")
 
 local modpath = minetest.get_modpath("ta_base")
 
@@ -38,6 +40,3 @@ minetest.register_alias("base:craft_table", "ta_base:craft_table")
 minetest.register_alias("mapgen_leaves", "ta_base:leaves")
 minetest.register_alias("default:leaves", "ta_base:leaves")
 minetest.register_alias("leaves", "ta_base:leaves")
-
-
-

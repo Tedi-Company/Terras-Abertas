@@ -1,5 +1,8 @@
+-- Ativa o sistema de tradução
+local S = minetest.get_translator("ta_base")
+
 minetest.register_node("ta_base:grass", {
-    description = "Terra com Grama",
+    description = S("Dirt with grass"), -- Agora o jogo sabe que pode traduzir isso!
     tiles = {
         "grass_top.png",   -- topo
         "grass_side.png"   -- lados

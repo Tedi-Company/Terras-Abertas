@@ -1,6 +1,10 @@
+-- 1. ADICIONE O TRADUTOR NO TOPO DO ARQUIVO
+local S = minetest.get_translator("ta_base")
+
 -- 1. REGISTRO DA FONTE DE ÁGUA (BLOCO PARADO)
 minetest.register_node("ta_base:water_source", {
-    description = "Água",
+    description = S("Water"), -- 2. ADICIONE O S() AQUI
+
     tiles = {"water.png"},
     drawtype = "liquid",
     paramtype = "light",
@@ -17,7 +21,8 @@ minetest.register_node("ta_base:water_source", {
 
 -- 2. REGISTRO DA ÁGUA FLUINDO (O QUE ESCORRE)
 minetest.register_node("ta_base:water_flowing", {
-    description = "Água",
+    description = S("Water"), -- 3. ADICIONE O S() AQUI TAMBÉM
+
     tiles = {"water.png"},
     drawtype = "flowingliquid",
     paramtype = "light",

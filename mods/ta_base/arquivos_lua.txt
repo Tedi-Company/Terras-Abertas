@@ -1,0 +1,12 @@
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\init.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\craft_table.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\dirt.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\grass.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\leaves.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\Oak_Planks.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\stone.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\water.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\wood.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\concrete\white_concrete.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\blocos\mosses\moss_block.lua
+D:\Documents\MEGA\Terras Abertas\mods\ta_base\itens\craft_table.lua

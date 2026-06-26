@@ -24,7 +24,7 @@ end
 -- Comando para abrir o menu
 ---------------------------------------------------
 minetest.register_chatcommand("conquistas", {
-    description = "Abrir menu de conquistas",
+    description = "Open the achievements menu",
     func = function(name)
         local player = minetest.get_player_by_name(name)
         if not player then return end

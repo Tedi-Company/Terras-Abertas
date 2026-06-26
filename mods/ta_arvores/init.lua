@@ -1,4 +1,4 @@
-local modpath = minetest.get_modpath("arvores")
+local modpath = minetest.get_modpath("ta_arvores")
 
 -- Árvore pequena
 minetest.register_decoration({

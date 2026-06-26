@@ -1,5 +1,8 @@
+-- Ativa o sistema de tradução
+local S = minetest.get_translator("ta_base")
+
 minetest.register_node("ta_base:leaves", {
-    description = "Folhas",
+    description = S("Leaves"), -- Corrigido com S() e letra maiúscula!
 
     drawtype = "allfaces_optional",
     waving = 1,
