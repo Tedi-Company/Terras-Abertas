@@ -1,0 +1,119 @@
+--
+-- Ores
+--
+
+minetest.register_node("essencial_default_minerals_with_stone:stone_with_coal", {
+	description = S("Coal Ore"),
+	tiles = {"default_stone.png^default_mineral_coal.png"},
+	groups = {cracky = 3},
+	drop = "essencial_default_minerals_with_stone:coal_lump",
+	sound = {},
+})
+
+minetest.register_node("essencial_default_minerals_with_stone:coalblock", {
+	description = S("Coal Block"),
+	tiles = {"default_coal_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 3},
+	sound = {},
+})
+
+
+minetest.register_node("essencial_default_minerals_with_stone:stone_with_iron", {
+	description = S("Iron Ore"),
+	tiles = {"default_stone.png^default_mineral_iron.png"},
+	groups = {cracky = 2},
+	drop = "essencial_default_minerals_with_stone:iron_lump",
+	sound = {},
+})
+
+minetest.register_node("essencial_default_minerals_with_stone:steelblock", {
+	description = S("Steel Block"),
+	tiles = {"default_steel_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 1, level = 2},
+	sound = {},
+})
+
+
+minetest.register_node("essencial_default_minerals_with_stone:stone_with_copper", {
+	description = S("Copper Ore"),
+	tiles = {"default_stone.png^default_mineral_copper.png"},
+	groups = {cracky = 2},
+	drop = "essencial_default_minerals_with_stone:copper_lump",
+	sound = {},
+})
+
+minetest.register_node("essencial_default_minerals_with_stone:copperblock", {
+	description = S("Copper Block"),
+	tiles = {"default_copper_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 1, level = 2},
+	sound = {},
+})
+
+
+minetest.register_node("essencial_default_minerals_with_stone:stone_with_tin", {
+	description = S("Tin Ore"),
+	tiles = {"default_stone.png^default_mineral_tin.png"},
+	groups = {cracky = 2},
+	drop = "essencial_default_minerals_with_stone:tin_lump",
+	sound = {},
+})
+
+minetest.register_node("essencial_default_minerals_with_stone:tinblock", {
+	description = S("Tin Block"),
+	tiles = {"default_tin_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 1, level = 2},
+	sound = {},
+})
+
+
+minetest.register_node("essencial_default_minerals_with_stone:bronzeblock", {
+	description = S("Bronze Block"),
+	tiles = {"default_bronze_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 1, level = 2},
+	sound = {},
+})
+
+minetest.register_node("essencial_default_minerals_with_stone:stone_with_gold", {
+	description = S("Gold Ore"),
+	tiles = {"default_stone.png^default_mineral_gold.png"},
+	groups = {cracky = 2},
+	drop = "essencial_default_minerals_with_stone:gold_lump",
+	sound = {},
+})
+
+minetest.register_node("essencial_default_minerals_with_stone:goldblock", {
+	description = S("Gold Block"),
+	tiles = {"default_gold_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 1},
+	sound = {},
+})
+
+
+minetest.register_node("essencial_default_minerals_with_stone:stone_with_diamond", {
+	description = S("Diamond Ore"),
+	tiles = {"default_stone.png^default_mineral_diamond.png"},
+	groups = {cracky = 1},
+	drop = "essencial_default_minerals_with_stone:diamond",
+	sound = {},
+})
+
+minetest.register_node("essencial_default_minerals_with_stone:diamondblock", {
+	description = S("Diamond Block"),
+	tiles = {"default_diamond_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 1, level = 3},
+	sound = {},
+})
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+-- diamond
+
+minetest.register_craftitem("default:diamond", {
+	description = S("Diamond"),
+	inventory_image = "default_diamond.png",
+})
+
+minetest.register_craft({
+	output = "default:diamond 9",
+	recipe = {
+		{"default:diamondblock"},
+	}
+})
+
+-- gold
+
+minetest.register_craft({
+	output = "default:gold_ingot 9",
+	recipe = {
+		{"default:goldblock"},
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:gold_ingot",
+	recipe = "default:gold_lump",
+})
+
+minetest.register_craftitem("default:gold_lump", {
+	description = S("Gold Lump"),
+	inventory_image = "default_gold_lump.png"
+})
+
+minetest.register_craftitem("default:gold_ingot", {
+	description = S("Gold Ingot"),
+	inventory_image = "default_gold_ingot.png"
+})
+
+-- iron
+
+minetest.register_craftitem("default:iron_lump", {
+	description = S("Iron Lump"),
+	inventory_image = "default_iron_lump.png"
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:steel_ingot",
+	recipe = "default:iron_lump",
+})
+
+-- copper
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:copper_ingot",
+	recipe = "default:copper_lump",
+})
+
+minetest.register_craft({
+	output = "default:copper_ingot 9",
+	recipe = {
+		{"default:copperblock"},
+	}
+})
+
+minetest.register_craftitem("default:copper_lump", {
+	description = S("Copper Lump"),
+	inventory_image = "default_copper_lump.png"
+})
+
+minetest.register_craftitem("default:copper_ingot", {
+	description = S("Copper Ingot"),
+	inventory_image = "default_copper_ingot.png"
+})
+
+-- bronze and copper
+
+minetest.register_craft({
+	output = "default:bronze_ingot 9",
+	recipe = {
+		{"default:copper_ingot", "default:copper_ingot", "default:copper_ingot"},
+		{"default:copper_ingot", "default:tin_ingot", "default:copper_ingot"},
+		{"default:copper_ingot", "default:copper_ingot", "default:copper_ingot"},
+	}
+})
+
+-- bronze
+
+minetest.register_craftitem("default:bronze_ingot", {
+	description = S("Bronze Ingot"),
+	inventory_image = "default_bronze_ingot.png"
+})
+
+-- tin
+
+minetest.register_craftitem("default:tin_ingot", {
+	description = S("Tin Ingot"),
+	inventory_image = "default_tin_ingot.png"
+})
+
+minetest.register_craftitem("default:tin_lump", {
+	description = S("Tin Lump"),
+	inventory_image = "default_tin_lump.png"
+})
+
+minetest.register_craft({
+	output = "default:tin_ingot 9",
+	recipe = {
+		{"default:tinblock"},
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:tin_ingot",
+	recipe = "default:tin_lump",
+})
+
+-- Coal
+minetest.register_craftitem("default:coal_lump", {
+	description = S("Coal Lump"),
+	inventory_image = "default_coal_lump.png",
+	groups = {coal = 1, flammable = 1}
+})
+
+minetest.register_craft({
+	output = "default:coal_lump 9",
+	recipe = {
+		{"default:coalblock"},
+	}
+})
+
+minetest.register_craft({
+	type = "fuel",
+	recipe = "default:coal_lump",
+	burntime = 40,
+})
+
+

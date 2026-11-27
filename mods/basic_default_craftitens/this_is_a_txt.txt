@@ -1,0 +1,10 @@
+﻿default_blueberries.png
+default_book.png
+default_book_written.png
+default_clay_brick.png
+default_clay_lump.png
+default_flint.png
+default_obsidian_shard.png
+default_paper.png
+default_steel_ingot.png
+default_stick.png
